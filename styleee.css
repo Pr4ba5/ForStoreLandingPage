@@ -1,4 +1,56 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #eee;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    min-height: 70px;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+}
+
+#header-img{
+    position: absolute;
+    left: 0;
+    width: 205px;
+}
+#nav{
+    display:flex;
+}
+@media (max-width: 600px) {
+    header{
+        flex-wrap: wrap;
+    }
+}
+
+nav ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    padding-right: 30px;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    color: #dd930a;
+}
+
+main{
+
 }
