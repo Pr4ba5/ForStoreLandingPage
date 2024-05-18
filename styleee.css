@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 18px;
+    
 }
 body{
     font-family: 'Lato', sans-serif;
@@ -82,10 +84,10 @@ a:hover{
 main > h1{
     text-align: center;
 }
-form{
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+
+.form-container{
+    display: flex;
+justify-content: center;
 }
 
 button{
@@ -104,6 +106,7 @@ button:hover{
     color: white;
 }
 .title{
+    font-size: 25px;
     font-weight: bold;
 }
 .features{
